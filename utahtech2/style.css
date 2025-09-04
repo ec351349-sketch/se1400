@@ -8,7 +8,7 @@ header {
     color: #FFFFFF;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-descendant header h1 {
+header h1 {
     line-height: 140%;
     padding: .5em;
 }
