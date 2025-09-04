@@ -12,3 +12,11 @@ header h1 {
     line-height: 140%;
     padding: .5em;
 }
+nav {
+    background-color: #F3F3F3;
+    font-weight: bold;
+}
+h2 {
+    color: #424242;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
