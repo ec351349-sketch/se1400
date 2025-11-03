@@ -161,6 +161,21 @@ label {
     grid-column: 1/-1;
 }
 
+#mySubmit {
+    width: 10rem;
+    grid-column: 2/3;
+}
+
+#alumnihero {
+    height: 300px;
+    background-image: url(images/alumnihero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row: 3/4;
+    grid-column: 1/-1;
+}
+
 #homehero {
     height: 300px;
     background-image: url(images/homehero.jpg);
