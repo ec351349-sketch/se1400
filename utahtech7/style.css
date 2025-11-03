@@ -120,26 +120,27 @@ form {
 
 table {
     margin: 0 auto;
-    border:#424242 1px solid;
+    border:1px solid #424242;
     width: 100%;
     border-collapse: collapse;
 }
 
-table:nth-of-type(even) {
-    background-color: #F3F3F3;
-}
 
 th, td {
     padding: 5px;
-    border: #424242 1px;
+    border: 1px solid #424242;
 }
 
 td {
     text-align: center;
 }
 
-th.text, td.text {
+.text {
     text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F3F3F3;
 }
 
 input, textarea
