@@ -134,6 +134,10 @@ th, td {
     border: #424242 1px;
 }
 
+td {
+    text-align: center;
+}
+
 th.text, td.text {
     text-align: left;
 }
