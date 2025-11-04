@@ -87,6 +87,11 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+video {
+    float: right;
+    margin-left: 2rem;
+}
+
 h3 {
     color: #003058;
 }
@@ -242,6 +247,12 @@ label {
         grid-column: 1/5;
         grid-row: 2/3;
         position: static;
+    }
+    video {
+        float: none;
+        margin-left: 0rem;
+        width: 100%;
+        height: auto;
     }
 
     nav ul {
