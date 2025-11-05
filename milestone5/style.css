@@ -120,8 +120,6 @@ main {
     grid-row: 4;
     display: flex;
     float: left;
-    height: 500px;
-    width: auto;
     justify-content: center;
     padding-top: 2em;
     padding-left: 5em;
@@ -167,9 +165,7 @@ footer {
             padding: 0.5em;
         }
 
-    .skin img {
-        margin-top: 10em;
-    }
+    
 }
 
 @media (max-width: 768px) {
@@ -178,9 +174,7 @@ footer {
         min-width: auto;
         width: 100%;
     }
-    .skin img {
-        display:none;
-    }
+    
 
     Nav ul {
         display:flex;
@@ -189,6 +183,13 @@ footer {
         font-size: 0.77rem;
         padding-top: 2em;
         
+    }
+
+    .skin img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+        padding: 1em 0;
     }
 
 }
