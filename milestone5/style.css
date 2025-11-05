@@ -151,3 +151,30 @@ footer {
     color: white;
     font-weight: bold;
 }
+
+@media (max-width: 992px){
+    #wrapper {
+        grid-template-columns: minmax(0, 1fr) 768px minmax(0, 1fr);
+        }
+
+    main {
+        padding: 6.4em 0;
+    }
+
+    main p {
+        padding-right: 1em;
+        font-size: 4rem;
+    }
+    .skin img {
+        margin-top: 10em;
+        padding-left: 1em;
+    }
+
+    
+}
+
+@media (max-width: 768px){
+    #wrapper {
+        grid-template-columns: minmax(0, 1fr) 100% minmax(0, 1fr);
+    }
+}
