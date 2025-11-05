@@ -175,6 +175,33 @@ footer {
 
 @media (max-width: 768px){
     #wrapper {
-        grid-template-columns: minmax(0, 1fr) 100% minmax(0, 1fr);
+        grid-template-columns: 100%;
+    }
+
+     header {
+        margin-bottom: -10px;
+    }
+
+    .logo_box {
+        margin-bottom: -3px;
+    }
+
+    .logo_box img {
+        height: 80px;
+        width: 80px;
+    }
+    main {
+        grid-column: 1 / -1;
+        margin: 10em 0;
+        padding: 10em 0;
+        
+    }
+
+    main p {
+        font-size: 4.3rem;
+    }
+
+    .skin img {
+        margin-top: 15em 0;
     }
 }
