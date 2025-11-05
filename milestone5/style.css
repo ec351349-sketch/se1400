@@ -105,7 +105,7 @@ main {
     justify-content: center;
     margin: 0 auto;
     border-radius: 25px;
-    height: 100px;
+    height: auto;
     width: 100px;
 }
 
@@ -114,9 +114,11 @@ main {
     transition: transform 0.3s ease-in-out;
 }
 
+
 .skin img {
-    grid-column: 2 / -2;
+    grid-column: 2 / 4;
     grid-row: 4;
+    display: flex;
     float: left;
     height: 500px;
     width: auto;
@@ -126,7 +128,7 @@ main {
 }
 
 main p {
-    grid-column: 2 / -2;
+    grid-column: 5 / 8;
     grid-row: 4;
     display: flex;
     justify-content: center;
