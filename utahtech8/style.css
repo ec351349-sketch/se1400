@@ -76,11 +76,11 @@ nav a {
     padding: 1rem 0rem;
     display: block;
     text-align: center;
+    transition: backround-color 0.5s ease-out;
 }
 
 nav a:hover {
     background-color: #BA1C21;
-    transition: ease-out 0.3s;
 }
 
 h2 {
