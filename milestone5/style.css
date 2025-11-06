@@ -40,7 +40,7 @@ header h1 a {
 
 }
 
-.text_border {
+#text_border {
     -webkit-text-stroke: black 1px;
 }
 
@@ -92,7 +92,7 @@ main {
     background-color: #ffffff;
 }
 
-.logo_box {
+#logo_box {
     grid-column: 1 / -1;
     grid-row: 3;
     background-color: black;
@@ -100,7 +100,7 @@ main {
     z-index: 1;
 }
 
-.logo_box img {
+#logo_box img {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -109,13 +109,13 @@ main {
     width: 100px;
 }
 
-.logo_box img:hover {
+#logo_box img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
 
 
-.skin img {
+#skin img {
     grid-column: 2 / 4;
     grid-row: 4;
     display: flex;
