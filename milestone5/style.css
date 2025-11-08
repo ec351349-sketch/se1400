@@ -90,6 +90,11 @@ main {
     grid-column: 2 / -2;
     grid-row: 4 / 5;
     background-color: #ffffff;
+    background-image: url(images/El_Blanc0_2245yt-logo-website-backround.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 main p {
