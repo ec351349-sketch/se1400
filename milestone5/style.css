@@ -97,17 +97,6 @@ main {
 
 }
 
-main p {
-    grid-column: 5 / 8;
-    grid-row: 4;
-    display: flex;
-    justify-content: center;
-    color: black;
-    font-size: 4rem;
-    padding-left: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 
 footer {
     grid-column: 1 / -1;
@@ -156,6 +145,19 @@ footer {
     justify-content: center;
     padding-top: 2em;
     padding-left: 5em;
+}
+
+#welcome_text {
+    grid-column: 5 / 8;
+    grid-row: 4;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 4rem;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
 }
 
 #projects {
