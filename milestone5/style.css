@@ -138,9 +138,77 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-#content {}
+#content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 10px;
+    padding: 1em;
+    text-align: center;
+    justify-items: center;
+    align-items: start
+}
 
-#projects {}
+#content img {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#content h2 {
+    font-size: 1.2rem;
+    width: 250px;
+    color: white;
+    text-decoration: none;
+}
+
+#content p {
+    font-size: .9rem;
+    color: white;
+    width: 250px;
+    height: auto;
+    border:#ffffff 2px solid;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#e2l {
+    
+    background: black;
+    padding: 20px;
+    border-radius: 5%;
+    margin-left: 75px;
+}
+
+#esb {
+    background: black;
+    padding: 20px;
+    border-radius: 5%;
+    margin-right: 75px;
+} 
+
+#eml {
+    background: black;
+    padding: 20px;
+    border-radius: 5%;
+    margin-left: 75px;
+}
+
+#eme {
+    background: black;
+    padding: 20px;
+    border-radius: 5%;
+    margin-right: 75px;
+}
+
+#projects {
+    background: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
 
 #skin img {
     grid-column: 2 / 4;
