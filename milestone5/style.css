@@ -124,9 +124,14 @@ footer {
 #logo_box {
     grid-column: 1 / -1;
     grid-row: 3;
+    text-align: center;
     background-color: black;
     padding: 1em;
     z-index: 1;
+}
+
+#logo_box a {
+    display: inline-block;
 }
 
 #logo_box img {
@@ -143,7 +148,7 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-#content {
+#projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -154,7 +159,7 @@ footer {
     align-items: start
 }
 
-#content img {
+#projects img {
     height: auto;
     width: 250px;
     border-radius: 10px;
@@ -162,14 +167,14 @@ footer {
     
 }
 
-#content h2 {
+#projects h2 {
     font-size: 1.2rem;
     width: 250px;
     color: white;
     text-decoration: none;
 }
 
-#content p {
+#projects p {
     font-size: .9rem;
     color: white;
     width: 250px;
@@ -208,12 +213,7 @@ footer {
     margin-right: 75px;
 }
 
-#projects {
-    background: black;
-    padding: 20px;
-    text-align: center;
-    color: white;
-}
+
 
 #skin img {
     grid-column: 2 / 4;
