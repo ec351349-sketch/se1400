@@ -292,6 +292,10 @@ footer {
         
     }
 
+    #welcome_text {
+        font-size: 2.5rem;
+    }
+
     #skin img {
         float: none;
         display: block;
