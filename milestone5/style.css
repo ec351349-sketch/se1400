@@ -154,6 +154,11 @@ footer {
     margin-left: .5em;
 }
 
+#skin img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
 #welcome_text {
     grid-column: 5 / 8;
     grid-row: 4;
