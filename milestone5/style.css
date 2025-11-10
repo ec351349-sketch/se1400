@@ -255,6 +255,11 @@ footer {
             padding: 0.5em;
         }
 
+        #welcome_text {
+            font-size: 3rem;
+            justify-content: center;
+        }
+
         #e2l, #esb, #eml, #eme {
             margin: 0 auto;
         }
