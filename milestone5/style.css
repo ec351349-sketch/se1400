@@ -235,15 +235,15 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     align-items: center;
+    justify-items: center;
 }
 
 #videos_main h1 {
     display: inline;
     grid-column: 1 / 2;
+    font-size: 4rem;
     font-weight: bold;
     border: black 3px solid;
-    width: 111px;
-    height: auto;
 }
 
 #channel_button {
@@ -259,14 +259,27 @@ footer {
 }
 
 #latest_video img {
-    width: 250px;
+    width: 300px;
     height:auto;
     
 }
 
+#video_description {
+    background-color: black;
+    padding: 1em;
+    border-radius: 15px;
+}
+
+#video_description p {
+    color: white;
+    border: white 1px solid;
+    padding: 1em;
+}
+
 .video_card img {
-    width: 250px;
+    width: 200px;
     height: auto;
+    border-radius: 15px;
 }
 @media (max-width: 992px) {
     #wrapper {
