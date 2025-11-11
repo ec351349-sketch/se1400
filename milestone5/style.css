@@ -175,7 +175,6 @@ footer {
 }
 
 
-
 #projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -187,7 +186,21 @@ footer {
     align-items: start
 }
 
-#projects img {
+.project_card_left {
+    background: black;
+    padding: 20px;
+    border-radius: 5%;
+    margin-left: 75px;
+}   
+
+.project_card_right {
+    background: black;
+    padding: 20px;
+    border-radius: 5%;
+    margin-right: 75px;
+}
+
+.project_card_left img {
     height: auto;
     width: 250px;
     border-radius: 10px;
@@ -195,23 +208,47 @@ footer {
     
 }
 
-#projects h2 {
+.project_card_right img {
+    height: auto;
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.project_card_left h2 {
     font-size: 1.2rem;
     width: 250px;
     color: white;
     text-decoration: none;
 }
 
-#projects h2 a {
+.project_card_right h2 {
+    font-size: 1.2rem;
+    width: 250px;
+    color: white;
+    text-decoration: none;
+}
+
+.project_card_left h2 a {
     text-decoration: none;
     color: white;
 }
 
-#projects h2 a:hover {
+.project_card_right h2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.project_card_left h2 a:hover {
     text-decoration: underline;
 }
 
-#projects p {
+.project_card_right h2 a:hover {
+    text-decoration: underline;
+}
+
+.project_card_left p {
     font-size: .9rem;
     color: white;
     width: 250px;
@@ -221,33 +258,14 @@ footer {
     padding: 5px;
 }
 
-#e2l {
-    
-    background: black;
-    padding: 20px;
-    border-radius: 5%;
-    margin-left: 75px;
-}
-
-#esb {
-    background: black;
-    padding: 20px;
-    border-radius: 5%;
-    margin-right: 75px;
-} 
-
-#eml {
-    background: black;
-    padding: 20px;
-    border-radius: 5%;
-    margin-left: 75px;
-}
-
-#eme {
-    background: black;
-    padding: 20px;
-    border-radius: 5%;
-    margin-right: 75px;
+.project_card_right p {
+    font-size: .9rem;
+    color: white;
+    width: 250px;
+    height: auto;
+    border:#ffffff 2px solid;
+    margin-top: 10px;
+    padding: 5px;
 }
 
 
@@ -276,7 +294,7 @@ footer {
             justify-content: center;
         }
 
-        #e2l, #esb, #eml, #eme {
+        .project_card_left, .project_card_right {
             margin: 0 auto;
         }
 
@@ -331,10 +349,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    #e2l,
-    #esb,
-    #eml,
-    #eme {
+    .project_card_left, .project_card_right {
     margin: 1em auto;
     width: 100%;       
     max-width: 400px; 
