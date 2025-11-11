@@ -95,7 +95,9 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
     min-height: calc(100vh - 140px - 51px);
 
 }
@@ -143,8 +145,6 @@ footer {
 }
 
 #skin img {
-    grid-column: 2 / 4;
-    grid-row: 4;
     display: flex;
     float: left;
     width: auto;
@@ -159,8 +159,6 @@ footer {
 }
 
 #welcome_text {
-    grid-column: 5 / 8;
-    grid-row: 4;
     display: flex;
     color: white;
     background-color: black;
