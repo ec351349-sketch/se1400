@@ -391,28 +391,30 @@ footer {
     }
 
     #videos_main h1 {
+        grid-column: 1 / -1;
         margin-left: 5px;
         font-size: 2.7rem;
         justify-self: center;
     }
 
     #channel_button {
+        display:none;
+        grid-column: 1 / -1;
         justify-self: center;
         margin: 0;
         
     }
 
     #latest_video {
-        
+        margin: 1em;
     }
 
     #video_description {
-        width: 100%;
+        margin:auto 2.9em;
     }
 
     #video_description p {
-
-        font-size: 0.5em;
+        font-size: 0.7em;
     }
 
 }
