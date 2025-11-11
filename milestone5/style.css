@@ -117,7 +117,7 @@ footer {
     
 }
 
-#logo_box {
+.logo_box {
     grid-column: 1 / -1;
     grid-row: 3;
     text-align: center;
@@ -126,11 +126,11 @@ footer {
     z-index: 1;
 }
 
-#logo_box a {
+.logo_box a {
     display: inline-block;
 }
 
-#logo_box img {
+.logo_box img {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -139,7 +139,7 @@ footer {
     width: 100px;
 }
 
-#logo_box img:hover {
+.logo_box img:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease-in-out;
 }
