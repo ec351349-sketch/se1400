@@ -149,6 +149,8 @@ footer {
 }
 
 #skin img {
+    display: block;
+    max-width: 100%;
     padding-top: 2em;
     padding-right: 2em;
     margin-left: .5em;
@@ -237,12 +239,17 @@ footer {
 @media (max-width: 992px) {
     #wrapper {
         grid-template-columns: 1fr;
-        min-width: 100%;
         width: 100%;
         }
 
         main {
+            grid-column: 1 / -1;
             padding: 1em 0;
+        }
+
+        #index_main {
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
         }
 
         #welcome_text {
@@ -253,7 +260,6 @@ footer {
         .project_card {
             margin: 0 auto;
         }
-
     
 }
 
@@ -274,6 +280,10 @@ footer {
         
     }
 
+    main {
+        grid-column: 1 / -1;
+    }
+
     #index_main {
         display: grid;
         grid-template-columns: 1fr;
@@ -283,13 +293,7 @@ footer {
     }
 
     #welcome_text {
-        font-size: 4rem;
-    }
-
-    #skin img {
-        display: block;
-        margin: 0 auto;
-        padding: 1em 0;
+        font-size: 2rem;
     }
 
     #skin img:hover {
