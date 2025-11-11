@@ -230,12 +230,44 @@ footer {
     padding: 5px;
 }
 
+#videos_main section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+#videos_main h1 {
+    display: inline;
+    grid-column: 1 / 2;
+    font-weight: bold;
+    border: black 3px solid;
+    width: 111px;
+    height: auto;
+}
+
+#channel_button {
+    grid-column: 2 / 3;
+    justify-self: end;
+}
 
 
+#channel_button img {
+   border-radius: 15px;
+   width: 111px;
+   height:auto; 
+}
 
+#latest_video img {
+    width: 250px;
+    height:auto;
+    
+}
 
-
-
+.video_card img {
+    width: 250px;
+    height: auto;
+}
 @media (max-width: 992px) {
     #wrapper {
         grid-template-columns: 1fr;
