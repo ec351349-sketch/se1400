@@ -243,11 +243,14 @@ footer {
     grid-column: 1 / 2;
     font-size: 4rem;
     font-weight: bold;
+    padding: 10px 20px;
     border: black 3px solid;
 }
 
 #channel_button {
     grid-column: 2 / 3;
+    padding: 1em;
+    margin-right: 1em;
     justify-self: end;
 }
 
@@ -261,7 +264,7 @@ footer {
 #latest_video img {
     width: 300px;
     height:auto;
-    
+    border-radius: 15px;    
 }
 
 #video_description {
@@ -274,6 +277,10 @@ footer {
     color: white;
     border: white 1px solid;
     padding: 1em;
+}
+
+.video_card {
+    padding: 2em;
 }
 
 .video_card img {
