@@ -149,6 +149,7 @@ footer {
     grid-row: 4;
     display: flex;
     float: left;
+    width: auto;
     padding-top: 2em;
     padding-right: 2em;
     margin-left: .5em;
