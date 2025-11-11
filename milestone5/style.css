@@ -60,7 +60,6 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding-bottom: 1em;
     font-size: 1.4rem;
     z-index: 3;
 }
@@ -83,7 +82,6 @@ nav a {
     text-decoration: none;
     color: black;
     text-align: center;
-    margin-top: 2.5em;
     padding: 1em;
     font-weight: bold;
     z-index: 3;
