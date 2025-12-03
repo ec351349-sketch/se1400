@@ -284,6 +284,27 @@ footer {
     padding: 1em;
 }
 
+#page_photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1em;
+    padding: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+#page_photos a:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+#page_photos img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+}
+
 .video_card {
     padding: 2em;
 }
