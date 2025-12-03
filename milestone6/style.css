@@ -300,6 +300,26 @@ footer {
     margin-bottom: 2em;
 }
 
+#aboutme_main h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#aboutme_main p {
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
 #page_photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
